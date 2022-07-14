@@ -1,22 +1,21 @@
+var format = require('date-fns/format');
+var formatDistanceToNow = require('date-fns/formatDistanceToNow');
+var differenceInHours = require('date-fns/differenceInHours');
+
 module.exports = {
     format_date: date => {
-      return `${new Date(date).getMonth() + 1}/${new Date(date).getDate()}/${new Date(
-        date
-      ).getFullYear()}`;
+      return `${format(new Date(date), "MMM-dd-yyyy' at 'HH:mm:ss")}`
     },
-    format_url: url => {
-      return url
-        .replace('http://', '')
-        .replace('https://', '')
-        .replace('www.', '')
-        .split('/')[0]
-        .split('?')[0];
+    format_timeElapsed: date => {
+      return `${formatDistanceToNow(new Date(date))}`
+    },
+    format_hoursDifference: date => {
+      return `${differenceInHours(new Date(date), new Date())}`
     },
     format_plural: (word, amount) => {
       if (amount !== 1) {
         return `${word}s`;
       }
-  
       return word;
     }
-  };  
+};

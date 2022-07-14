@@ -1,0 +1,21 @@
+{{> post-info post}}
+{{!-- if user is not logged in, hide comment-form --}}
+{{#if loggedIn}}
+<form class="comment-form">
+  <div>
+    <textarea name="comment-body"></textarea>
+  </div>
+
+  <div>
+    <button type="submit">new comment</button>
+  </div>
+</form>
+{{else}}
+  <a href="/login">You must be a registered user to post comments, click here to resister or log in!</a>
+{{/if}}
+
+{{> comments post.comments}}
+
+{{#if loggedIn}}
+<script src="/javascript/create-comment.js"></script>
+{{/if}}
