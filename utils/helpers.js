@@ -4,7 +4,7 @@ var differenceInHours = require('date-fns/differenceInHours');
 
 module.exports = {
     format_date: date => {
-      return `${format(new Date(date), "MMM-dd-yyyy' at 'HH:mm:ss")}`
+      return `${format(new Date(date), "MM/dd/yyyy")}`
     },
     format_timeElapsed: date => {
       return `${formatDistanceToNow(new Date(date))}`

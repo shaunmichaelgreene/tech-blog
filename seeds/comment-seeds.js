@@ -1,4 +1,4 @@
-// const { Comment } = require('../models');
+const { Comment } = require('../models');
 
 const commentdata = [
   {
@@ -32,7 +32,7 @@ const commentdata = [
     post_id: 1
   },
   {
-    comment_text: 'lol',
+    comment_text: 'lol good one, brucie',
     user_id: 4,
     post_id: 1
   },
@@ -163,7 +163,37 @@ const commentdata = [
   },
   {
     comment_text: "No. You spy too much and have no respect for privacy. Go brood alone on a gargoyle head somewhere.",
-    user_id: 9,
+    user_id: 4,
+    post_id: 5
+  },
+  {
+    comment_text: "holy sh*t you actually bought it",
+    user_id: 10,
+    post_id: 5
+  },
+  {
+    comment_text: "Wish I had $39M just lying around...",
+    user_id: 7,
+    post_id: 5
+  },
+  {
+    comment_text: "Hey @Neo, I gave Jarvis the day off. What do you know about getting rid of bots?",
+    user_id: 4,
+    post_id: 5
+  },
+  {
+    comment_text: "I know kung fu.",
+    user_id: 3,
+    post_id: 10
+  },
+  {
+    comment_text: "Sold! This I've gotta see. Anyone else want a board seat?",
+    user_id: 4,
+    post_id: 5
+  },
+  {
+    comment_text: "Whatever. I don't care. Waste of money anyways. I look forward to buying it for pennies on the dollar when it tanks in a year!",
+    user_id: 8,
     post_id: 5
   },
   {

@@ -17,7 +17,7 @@ async function editFormHandler(event) {
     });
   
     if (response.ok) {
-      document.location.replace(`/posts/${id}`);
+      document.location.replace(`/post/${id}`);
     } else {
       alert(response.statusText);
     }
