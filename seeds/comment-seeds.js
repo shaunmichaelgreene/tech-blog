@@ -184,7 +184,7 @@ const commentdata = [
   {
     comment_text: "I know kung fu.",
     user_id: 3,
-    post_id: 10
+    post_id: 5
   },
   {
     comment_text: "Sold! This I've gotta see. Anyone else want a board seat?",
