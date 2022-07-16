@@ -22,10 +22,10 @@
   Click on the live deployed link to launch the app in your web browser to view the home page and all existing posts. Click Login/Register at the top of the page to create an account, and then use your new credentials to login. Once successfully logged in, you'll be redirected to your User Dashboard, where you can create a new post and view your post history (you can also edit and delete posts here too!). After logging in, you will also be able to comment on other user's posts.
 
   ## Contributing
-    Anything available for open-source contributions will be listed on the GitHub repository Issues page and marked accordingly.
+  Anything available for open-source contributions will be listed on the GitHub repository Issues page and marked accordingly.
 
   ## Tests
-    Routes can be tested with Insomnia. No other tests available at this time.
+  Routes can be tested with Insomnia. No other tests available at this time.
 
   ## Questions
   For additional support or inquiries, please feel free to reach out! 
