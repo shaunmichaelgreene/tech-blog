@@ -5,7 +5,7 @@
   ![screenshot of Shaun's Tech Blog](https://i.imgur.com/qwWxjfx.png)
 
   ## Description
-  Shaun’s Tech Blog is a completely full-stack CMS-style blog website! Users can to log in, publish posts, and add comments to other posts. This app was built entirely from scratch and deployed like with Heroku.
+  Shaun’s Tech Blog is a completely full-stack CMS-style blog website! Users can log in, publish posts, and add comments to other posts. This app was built entirely from scratch and deployed like with Heroku.
 
   ## Table of Contents
   * [Installation](#installation)
